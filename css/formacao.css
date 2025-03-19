@@ -83,7 +83,7 @@
   top: -30px;
 }
 
-.faculdade-instituicao {
+.faculdade-instituicao, .faculdade-ano  {
   font-size: 1.125rem;
   color: #a3a3a3;
 }
@@ -130,7 +130,7 @@
   color: #8f8f8f;
 }
 
-.cursos li {
+.lista-flex li {
   display: flex;
   justify-content: space-between;
 }

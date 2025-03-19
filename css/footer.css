@@ -30,8 +30,9 @@
   margin-top: -50px;
   margin-left: -15px;
   display: flex;
-  gap: 20px;   
-  flex-wrap: wrap;
+  gap: 20px;
+  grid-column: 2;
+  padding: 10px;
 }
 
 .footer-copy {
