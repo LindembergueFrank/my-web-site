@@ -1,35 +1,27 @@
-# Portfólio Web — HTML e CSS
+# Portfólio de estudo — HTML e CSS
 
-Projeto de portfólio estático desenvolvido com **HTML e CSS**.
+Portfólio estático preservado como registro de aprendizagem de frontend, com navegação por seções, estilos e imagens locais.
 
-O repositório começou como exercício de frontend e foi preservado como parte da evolução técnica. A página foi atualizada para não apresentar informações profissionais antigas ou projetos de estudo como experiência de trabalho.
+## Organização
 
-## Estrutura
+- [html/index.html](html/index.html): página principal.
+- [css](css/): folhas de estilo.
+- [img](img/): recursos visuais.
 
-```text
-my-web-site/
-├── html/
-│   └── index.html
-├── css/
-│   └── styles.css
-└── img/
+## Visualizar localmente
+
+Com Python 3, execute na raiz:
+
+```sh
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
-## O que o projeto demonstra
+Abra http://127.0.0.1:8000/html/index.html. Não há instalação de dependências nem compilação.
 
-- HTML semântico;
-- organização de uma página de portfólio;
-- CSS responsivo e composição visual;
-- navegação por seções;
-- uso de assets locais.
+## Portfólio atual
 
-## Estado
-
-Este é um projeto simples de frontend e **não representa o principal portfólio técnico atual**. Para projetos backend, engenharia de software e cases sanitizados de sistemas reais, consulte o perfil principal:
-
-- GitHub: `LindembergueFrank`
-- ViaNux: `vianux.com.br`
+Este repositório documenta uma etapa anterior dos estudos. O portfólio profissional atual está no projeto [portfolio](https://github.com/LindembergueFrank/portfolio), publicado em [lindemberguefrank.github.io/portfolio](https://lindemberguefrank.github.io/portfolio/).
 
 ## Autor
 
-**Lindembergue Frank**
+Lindembergue Frank. [ViaNux](https://vianux.com.br).
